@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'bundler'
+Bundler.setup(:default)
+
+require 'splunktronic/cli'
+
+Splunktronic::CLI.new(ARGV).run
